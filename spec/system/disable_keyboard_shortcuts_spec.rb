@@ -20,6 +20,12 @@ RSpec.describe "Disable keyboard shortcuts" do
     expect(page).to have_current_path("/latest")
   end
 
+  it "keeps / opening search" do
+    visit "/latest"
+    page.send_keys("/")
+    expect(page).to have_css(".search-menu .search-term__input")
+  end
+
   it "keeps ctrl+alt+f opening search" do
     visit "/latest"
     page.send_keys([:control, :alt, "f"])

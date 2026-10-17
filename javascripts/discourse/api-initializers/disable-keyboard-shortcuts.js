@@ -1,11 +1,10 @@
 import { apiInitializer } from "discourse/lib/api";
 
 // Mirrors core's DEFAULT_BINDINGS (services/keyboard-shortcuts.js) minus the
-// ones kept on purpose: ctrl+alt+f, mod+p (print), shift+f11 and o/enter.
+// ones kept on purpose: / and ctrl+alt+f (search), mod+p (print), shift+f11 and o/enter.
 const DISCOURSE_ONLY_SHORTCUTS = [
   "!",
   "#",
-  "/",
   "=",
   "?",
   ".",

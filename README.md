@@ -15,6 +15,7 @@ extension.
 ## What it does
 
 - Pauses every default shortcut in core's keyboard-shortcuts service, except:
+  - `/`, which opens search;
   - `Ctrl+Alt+F` (open search), `Ctrl/Cmd+P` (print) and `Shift+F11` (full-screen
     composer), which work even while typing;
   - `o` / `Enter`, which open the selected topic.

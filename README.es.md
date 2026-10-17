@@ -16,6 +16,7 @@ de pantalla o una extensión del navegador.
 ## Qué hace
 
 - Pausa todos los atajos por defecto del servicio de atajos de core, salvo:
+  - `/`, que abre la búsqueda;
   - `Ctrl+Alt+F` (abrir búsqueda), `Ctrl/Cmd+P` (imprimir) y `Shift+F11` (editor a
     pantalla completa), que funcionan incluso escribiendo;
   - `o` / `Enter`, que abren el tema seleccionado.
