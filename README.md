@@ -28,7 +28,7 @@ in dropdown menus are hidden too.
 ## Install
 
 1. Admin → Appearance → Themes → **Components** → Install → *From a git repository*:
-   `https://github.com/somos-criptonautas/discourse-disable-keyboard-shortcuts`
+   `https://github.com/criptonautas/discourse-disable-keyboard-shortcuts`
 2. Add the component to your active theme(s).
 
 No settings. Removing the component brings every shortcut back.

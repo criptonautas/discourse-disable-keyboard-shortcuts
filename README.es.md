@@ -29,7 +29,7 @@ pistas en los menús desplegables también quedan ocultas.
 ## Instalación
 
 1. Admin → Apariencia → Temas → **Componentes** → Instalar → *Desde un repositorio git*:
-   `https://github.com/somos-criptonautas/discourse-disable-keyboard-shortcuts`
+   `https://github.com/criptonautas/discourse-disable-keyboard-shortcuts`
 2. Añade el componente a tu(s) tema(s) activo(s).
 
 Sin ajustes. Al quitar el componente vuelven todos los atajos.
